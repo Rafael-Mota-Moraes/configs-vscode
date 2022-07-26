@@ -1,0 +1,34 @@
+{
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.75,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "editor.minimap.renderCharacters": false,
+  "editor.tabSize": 2,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.trailingComma": "none",
+  "editor.cursorSmoothCaretAnimation": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.compactFolders": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "window.zoomLevel": 1,
+  "editor.fontLigatures": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  "editor.fontFamily": "Fira Code"
+}

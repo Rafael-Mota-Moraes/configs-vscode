@@ -22,7 +22,7 @@
   "editor.cursorBlinking": "expand",
   "editor.inlineSuggest.enabled": true,
   "workbench.editor.untitled.hint": "hidden",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"

@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.lineHeight": 1.75,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vscode-icons",
@@ -8,15 +8,27 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "emmet.includeLanguages": {
-    "django-html": "html"
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.xml": "html",
+    "*.svg": "html",
+    "*.html": "html",
+    "django-html": "html", // batisteo.vscode-django
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/base_templates/**/*.html": "django-html",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "terminal.integrated.copyOnSelection": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.external.linuxExec": "x-terminal-emulator",
   "terminal.integrated.fontFamily": "'Operator Mono Lig Book', 'Fira Code', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.enableFileLinks": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -32,25 +44,22 @@
   "workbench.editor.untitled.hint": "hidden",
   "editor.fontLigatures": true,
   "liveServer.settings.donotShowInfoMsg": true,
+  "editor.rulers": [80, 120],
   "[javascript]": {
     "editor.formatOnSave": true
   },
-  "[python]": {
-    "editor.tabSize": 4
+  "[html]": {
+    "editor.formatOnSave": false
   },
-  "code-runner.executorMap": {
-    "python": "clear ; python3 -u"
-  },
-  "code-runner.runInTerminal": true,
   "code-runner.ignoreSelection": true,
   "prettier.tabWidth": 2,
   "editor.tabSize": 2,
   "git.enableSmartCommit": true,
-  "workbench.colorTheme": "GitHub Dark Default",
   "git.autofetch": true,
   "code-runner.clearPreviousOutput": true,
   "git.confirmSync": false,
   "liveServer.settings.donotVerifyTags": true,
   "explorer.confirmDelete": false,
-  "python.defaultInterpreterPath": "python"
+  "editor.fontFamily": "Fira Code",
+  "explorer.confirmDragAndDrop": false
 }

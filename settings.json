@@ -2,7 +2,7 @@
   "editor.fontSize": 16,
   "editor.lineHeight": 1.75,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.wordWrap": "on",
   "editor.minimap.renderCharacters": false,
   "[typescriptreact]": {
@@ -30,10 +30,9 @@
   "terminal.integrated.fontFamily": "'Operator Mono Lig Book', 'Fira Code', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.enableFileLinks": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.trailingComma": "none",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.compactFolders": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -45,9 +44,6 @@
   "editor.fontLigatures": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.rulers": [80, 120],
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
   "[html]": {
     "editor.formatOnSave": false
   },
@@ -61,5 +57,16 @@
   "liveServer.settings.donotVerifyTags": true,
   "explorer.confirmDelete": false,
   "editor.fontFamily": "Fira Code",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "Default Dark+ Experimental",
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "code-runner.executorMap": {
+    "python": "clear ; python -u"
+  },
+  "code-runner.runInTerminal": true,
+  "diffEditor.renderSideBySide": false,
+  "window.zoomLevel": 1
 }

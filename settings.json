@@ -58,15 +58,17 @@
   "explorer.confirmDelete": false,
   "editor.fontFamily": "Fira Code",
   "explorer.confirmDragAndDrop": false,
-  "workbench.colorTheme": "Default Dark+ Experimental",
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "[python]": {
     "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnType": true
   },
   "code-runner.executorMap": {
     "python": "clear ; python -u"
   },
   "code-runner.runInTerminal": true,
   "diffEditor.renderSideBySide": false,
+  "cmake.configureOnOpen": true,
   "window.zoomLevel": 1
 }

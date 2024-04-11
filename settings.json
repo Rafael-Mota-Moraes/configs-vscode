@@ -1,74 +1,25 @@
 {
-  "editor.fontSize": 16,
-  "editor.lineHeight": 1.75,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.wordWrap": "on",
-  "editor.minimap.renderCharacters": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "files.associations": {
-    "*.js": "javascript",
-    "*.jsx": "javascriptreact",
-    "*.xml": "html",
-    "*.svg": "html",
-    "*.html": "html",
-    "django-html": "html", // batisteo.vscode-django
-    "**/*.html": "html",
-    "**/templates/**/*.html": "django-html",
-    "**/base_templates/**/*.html": "django-html",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "terminal.integrated.copyOnSelection": false,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.external.linuxExec": "x-terminal-emulator",
-  "terminal.integrated.fontFamily": "'Operator Mono Lig Book', 'Fira Code', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.drawBoldTextInBrightColors": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.trailingComma": "none",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "explorer.compactFolders": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true,
-  "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "expand",
-  "editor.inlineSuggest.enabled": true,
-  "workbench.editor.untitled.hint": "hidden",
-  "editor.fontLigatures": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.rulers": [80, 120],
-  "[html]": {
-    "editor.formatOnSave": false
-  },
-  "code-runner.ignoreSelection": true,
-  "prettier.tabWidth": 2,
-  "editor.tabSize": 2,
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "code-runner.clearPreviousOutput": true,
-  "git.confirmSync": false,
-  "liveServer.settings.donotVerifyTags": true,
-  "explorer.confirmDelete": false,
-  "editor.fontFamily": "Fira Code",
-  "explorer.confirmDragAndDrop": false,
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
-  "[python]": {
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.formatOnType": true
-  },
-  "code-runner.executorMap": {
-    "python": "clear ; python -u"
-  },
-  "code-runner.runInTerminal": true,
-  "diffEditor.renderSideBySide": false,
-  "cmake.configureOnOpen": true,
-  "window.zoomLevel": 1
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 20,
+    "editor.lineHeight": 1.75,
+    "code-runner.executorMap": {
+        "python": "clear ; python -u",
+    },
+    "editor.tabSize": 2,
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "editor.formatOnSave": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "terminal.integrated.fontSize": 20,
+    "explorer.confirmDelete": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on"
 }

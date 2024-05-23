@@ -8,26 +8,6 @@
         "python": "clear ; python -u",
     },
     "editor.tabSize": 2,
-    "[python]": {
-        "editor.tabSize": 4
-    },
-    "[c]": {
-        "editor.tabSize": 4
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[html]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[django-html]": {
-        "editor.formatOnSave": false
-    },
-    "emmet.includeLanguages": {
-        "django-html": "html",
-    },
     "code-runner.runInTerminal": true,
     "code-runner.ignoreSelection": true,
     "workbench.colorTheme": "Min Dark",
@@ -49,23 +29,44 @@
     "files.associations": {
         "*.js": "javascriptreact",
         "*.tsx": "typescriptreact"
-      },
-      "prettier.trailingComma": "all",
-      "prettier.singleQuote": true,
-      "[javascriptreact]": {
+    },
+    "prettier.trailingComma": "all",
+    "prettier.singleQuote": true,
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 0,
+    "window.newWindowDimensions": "inherit",
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.fontFamily": "'Ubuntu Mono for Powerline'",
+    "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "[json]": {
+    },
+    "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "[typescript]": {
+    },
+    "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "[typescriptreact]": {
+    },
+    "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "html.format.wrapAttributes": "auto",
-      "html.format.wrapLineLength": 0,
-      "window.newWindowDimensions": "inherit",
-      "telemetry.telemetryLevel": "off"
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "[c]": {
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[django-html]": {
+        "editor.formatOnSave": false
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html",
+    },
 }

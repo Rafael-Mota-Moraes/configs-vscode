@@ -1,72 +1,71 @@
 {
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "none",
-    "explorer.compactFolders": false,
-    "editor.fontSize": 20,
-    "editor.lineHeight": 1.8,
-    "code-runner.executorMap": {
-        "python": "clear ; python -u",
-    },
-    "editor.tabSize": 2,
-    "code-runner.runInTerminal": true,
-    "code-runner.ignoreSelection": true,
-    "workbench.colorTheme": "Min Dark",
-    "editor.formatOnSave": true,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "terminal.integrated.fontSize": 20,
-    "explorer.confirmDelete": false,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontFamily": "'JetBrains Mono'",
-    "editor.fontLigatures": true,
-    "editor.rulers": [
-        80,
-        120
-    ],
-    "explorer.confirmDragAndDrop": false,
-    "files.associations": {
-        "*.js": "javascriptreact",
-        "*.tsx": "typescriptreact"
-    },
-    "prettier.trailingComma": "all",
-    "prettier.singleQuote": true,
-    "html.format.wrapAttributes": "auto",
-    "html.format.wrapLineLength": 0,
-    "window.newWindowDimensions": "inherit",
-    "telemetry.telemetryLevel": "off",
-    "terminal.integrated.fontFamily": "'Ubuntu Mono for Powerline'",
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[python]": {
-        "editor.tabSize": 4
-    },
-    "[c]": {
-        "editor.tabSize": 4
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[html]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[django-html]": {
-        "editor.formatOnSave": false
-    },
-    "emmet.includeLanguages": {
-        "django-html": "html",
-    },
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.fontSize": 20,
+  "editor.lineHeight": 1.8,
+  "code-runner.executorMap": {
+    "python": "clear ; python -u"
+  },
+  "editor.tabSize": 2,
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
+  "editor.formatOnSave": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "terminal.integrated.fontSize": 20,
+  "explorer.confirmDelete": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontLigatures": true,
+  "editor.rulers": [80, 120],
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "window.newWindowDimensions": "inherit",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.fontFamily": "'Ubuntu Mono for Powerline'",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[c]": {
+    "editor.tabSize": 4
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[django-html]": {
+    "editor.formatOnSave": false
+  },
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  }
 }

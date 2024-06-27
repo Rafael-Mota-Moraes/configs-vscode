@@ -4,8 +4,36 @@
   "explorer.compactFolders": false,
   "editor.fontSize": 20,
   "editor.lineHeight": 1.8,
-  "code-runner.executorMap": {
-    "python": "clear ; python -u"
+  "python.languageServer": "Pylance", // ms-python.vscode-pylance
+  "python.testing.unittestEnabled": false, // ms-python.python
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [], // -x to bail
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--errors-only"
+  ],
+  "python.formatting.autopep8Args": ["--indent-size=4"],
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python", // ms-python.python
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[django-html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
   },
   "editor.tabSize": 2,
   "code-runner.runInTerminal": true,
@@ -17,22 +45,18 @@
   "explorer.confirmDelete": false,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontLigatures": true,
   "editor.rulers": [80, 120],
   "explorer.confirmDragAndDrop": false,
-  "files.associations": {
-    "*.js": "javascriptreact",
-    "*.tsx": "typescriptreact"
-  },
+
   "prettier.trailingComma": "all",
   "prettier.singleQuote": true,
   "html.format.wrapAttributes": "auto",
   "html.format.wrapLineLength": 0,
   "window.newWindowDimensions": "inherit",
   "telemetry.telemetryLevel": "off",
-  "terminal.integrated.fontFamily": "'Ubuntu Mono for Powerline'",
+  "terminal.integrated.fontFamily": "'JetBrains Mono'",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -45,9 +69,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[python]": {
-    "editor.tabSize": 4
-  },
   "[c]": {
     "editor.tabSize": 4
   },
@@ -59,13 +80,31 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "[django-html]": {
-    "editor.formatOnSave": false
+  "files.associations": {
+    "*.js": "javascript",
+    "*.xml": "html",
+    "*.svg": "html",
+    "*.html": "html",
+    "django-html": "html", // batisteo.vscode-django
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/base_templates/**/*.html": "django-html",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact"
   },
   "[go]": {
     "editor.tabSize": 4
   },
   "emmet.includeLanguages": {
-    "django-html": "html"
-  }
+    "django-html": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "material-icon-theme.folders.theme": "classic",
+  "workbench.iconTheme": "material-icon-theme",
+  "go.toolsManagement.autoUpdate": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }

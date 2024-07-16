@@ -8,16 +8,20 @@
   "python.testing.unittestEnabled": false, // ms-python.python
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": [], // -x to bail
-  "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": true,
   "python.linting.pylintArgs": [
     "--load-plugins=pylint_django",
     "--errors-only"
   ],
+  "python.linting.flake8Args": ["--max-line-length=88"],
+  "python.formatting.provider": "autopep8",
   "python.formatting.autopep8Args": ["--indent-size=4"],
-  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.defaultInterpreterPath": ".\\venv\\Scripts\\python.exe",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python", // ms-python.python
+    "editor.defaultFormatter": "ms-python.autopep8", // ms-python.python
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
@@ -28,7 +32,7 @@
   },
   "[django-html]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.quickSuggestions": {
       "other": true,
       "comments": true,
@@ -101,10 +105,15 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.folders.theme": "specific",
   "workbench.iconTheme": "material-icon-theme",
   "go.toolsManagement.autoUpdate": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
+  "liveServer.settings.donotShowInfoMsg": true
 }

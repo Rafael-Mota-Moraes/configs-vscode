@@ -1,119 +1,45 @@
 {
-  "window.zoomLevel": 0,
-  "workbench.startupEditor": "none",
-  "explorer.compactFolders": false,
-  "editor.fontSize": 20,
-  "editor.lineHeight": 1.8,
-  "python.languageServer": "Pylance", // ms-python.vscode-pylance
-  "python.testing.unittestEnabled": false, // ms-python.python
-  "python.testing.pytestEnabled": true,
-  "python.testing.pytestArgs": [], // -x to bail
-  "python.linting.mypyEnabled": true,
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "python.linting.flake8Enabled": true,
-  "python.linting.pylintArgs": [
-    "--load-plugins=pylint_django",
-    "--errors-only"
-  ],
-  "python.linting.flake8Args": ["--max-line-length=88"],
-  "python.formatting.provider": "autopep8",
-  "python.formatting.autopep8Args": ["--indent-size=4"],
-  "python.defaultInterpreterPath": ".\\venv\\Scripts\\python.exe",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8", // ms-python.python
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
+    "editor.fontSize": 20,
+    "editor.lineHeight": 1.8,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.mouseWheelZoom": true,
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "always"
-    }
-  },
-  "[django-html]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.quickSuggestions": {
-      "other": true,
-      "comments": true,
-      "strings": true
-    }
-  },
-  "editor.tabSize": 2,
-  "code-runner.runInTerminal": true,
-  "code-runner.ignoreSelection": true,
-  "editor.formatOnSave": true,
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "terminal.integrated.fontSize": 20,
-  "explorer.confirmDelete": false,
-  "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "'JetBrains Mono'",
-  "editor.fontLigatures": true,
-  "editor.rulers": [80, 120],
-  "explorer.confirmDragAndDrop": false,
-
-  "prettier.trailingComma": "all",
-  "prettier.singleQuote": true,
-  "html.format.wrapAttributes": "auto",
-  "html.format.wrapLineLength": 0,
-  "window.newWindowDimensions": "inherit",
-  "telemetry.telemetryLevel": "off",
-  "terminal.integrated.fontFamily": "'JetBrains Mono'",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[c]": {
-    "editor.tabSize": 4
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "files.associations": {
-    "*.js": "javascript",
-    "*.xml": "html",
-    "*.svg": "html",
-    "*.html": "html",
-    "django-html": "html", // batisteo.vscode-django
-    "**/*.html": "html",
-    "**/templates/**/*.html": "django-html",
-    "**/base_templates/**/*.html": "django-html",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
-    "*.jsx": "javascriptreact",
-    "*.tsx": "typescriptreact"
-  },
-  "[go]": {
-    "editor.tabSize": 4
-  },
-  "emmet.includeLanguages": {
-    "django-html": "html",
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
-  "material-icon-theme.folders.theme": "specific",
-  "workbench.iconTheme": "material-icon-theme",
-  "go.toolsManagement.autoUpdate": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
-  "liveServer.settings.donotShowInfoMsg": true
+    "workbench.colorTheme": "Night Owl",
+    "explorer.compactFolders": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.tabSize": 2,
+    "[django-html]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff", // ms-python.python
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+        }
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "window.titleBarStyle": "native",
+    "workbench.statusBar.visible": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.rulers": [80, 120],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
 }

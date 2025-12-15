@@ -5,14 +5,14 @@
     "workbench.layoutControl.enabled": false,
     "chat.commandCenter.enabled": false,
     "workbench.activityBar.location": "top",
-    "workbench.colorTheme": "Darker Night Dracula",
+    "workbench.colorTheme": "Min Dark",
     "editor.formatOnSave": true,
-    "python.analysis.typeCheckingMode": "standard",
+    "editor.cursorBlinking": "expand",
+    "python.analysis.typeCheckingMode": "basic",
     "editor.mouseWheelZoom": true,
     "editor.lineHeight": 1.8,
-    "editor.fontSize": 22,
+    "editor.fontSize": 18,
     "workbench.iconTheme": "material-icon-theme",
-    "editor.cursorBlinking": "expand",
     "editor.tabSize": 2,
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8",
@@ -23,8 +23,6 @@
     "editor.smoothScrolling": true,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "workbench.list.smoothScrolling": true,
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "python": "clear ; python3 -u"
@@ -32,6 +30,7 @@
     "workbench.navigationControl.enabled": false,
     "git.confirmSync": false,
     "explorer.compactFolders": false,
+    "editor.cursorSmoothCaretAnimation": "on",
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -46,4 +45,31 @@
     "editor.renderLineHighlight": "gutter",
     "workbench.editor.labelFormat": "short",
     "breadcrumbs.enabled": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.venv/**": true,
+        "**/venv/**": true,
+        "**/__pycache__/**": true,
+        "**/.pytest_cache/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/venv": true,
+        "**/.venv": true,
+        "**/__pycache__": true,
+        "**/.git": true
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    "window.density.editorTabHeight": "compact"
 }

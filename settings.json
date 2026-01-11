@@ -16,13 +16,13 @@
     "editor.tabSize": 2,
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8",
-        "editor.tabSize": 4,
+        "editor.tabSize": 4
     },
     "editor.fontFamily": "'Fira Code'",
     "editor.fontLigatures": true,
     "editor.smoothScrolling": true,
     "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "none",
+    "editor.renderWhitespace": "boundary",
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "python": "clear ; python3 -u"
@@ -44,7 +44,7 @@
     "workbench.startupEditor": "none",
     "editor.renderLineHighlight": "gutter",
     "workbench.editor.labelFormat": "short",
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -71,5 +71,18 @@
         "**/__pycache__": true,
         "**/.pytest_cache": true
     },
-    "window.density.editorTabHeight": "compact"
+    "window.density.editorTabHeight": "compact",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[django-html]": {
+        "editor.formatOnSave": false
+    },
+    "python.analysis.supportAllPythonDocuments": true,
+    "python.languageServer": "Pylance", // ms-python.vscode-pylance
+    "python.testing.unittestEnabled": false, // ms-python.python
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [],
+    "workbench.sideBar.location": "right", // -x to bail
 }
